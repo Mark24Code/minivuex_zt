@@ -5,9 +5,11 @@ import app from './app.vue';
 
 Vue.use(VueValidator);
 Vue.use(VueResource);
-new Vue({
+var vm = new Vue({
     el:'body',
     components:{
         app
     }
 });
+
+window.vm = vm;

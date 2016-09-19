@@ -23,6 +23,10 @@
           </div>
           <input type="submit" value="send" v-if="$validation1.valid">
         </form>
+        <hr>
+        <div>{{$validation1 | json}}</div>
+        <hr>
+        <div v-for="err in $validation1">{{err | json}}</div>
     </validator>
 
 </template>
