@@ -1,4 +1,5 @@
-# minivue
-webpack+vue+vue-loader最小开发组合
+# minivuex_zt
 
-vue+webpack开发探索ing
+就是要折腾
+
+学习vuex ing
